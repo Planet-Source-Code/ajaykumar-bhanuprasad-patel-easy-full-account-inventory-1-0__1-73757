@@ -1,0 +1,2 @@
+user name is selecting by down key or click & select "admin"
+password is "ajay patel"

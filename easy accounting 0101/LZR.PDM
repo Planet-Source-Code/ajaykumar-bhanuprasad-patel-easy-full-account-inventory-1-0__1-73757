@@ -1,0 +1,179 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Ajay patel Card account]
+Icon1="Card Account.exe"
+Title1=ajay patel card software
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Lazer telecom application]
+Icon1=LaZeR.exe
+Title1=Lazer telecom application
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\accounting software\pkg
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+SETUP1.EXE=C:\aj\lazer\accounting software\setup\SETUP1.EXE
+co.mdb=C:\accounting software\co.mdb
+main.txt=C:\accounting software\main.txt
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\System32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\Program Files\Microsoft Visual Studio\VIntDev98\bin\DTCRT.DLL=
+C:\Program Files (x86)\Microsoft Visual Studio\VIntDev98\bin\DTCRT.DLL=
+C:\Windows\SysWOW64\msdbrptr.dll=
+C:\Windows\SysWOW64\msbind.dll=
+C:\Windows\SysWOW64\msstdfmt.dll=
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=
+C:\Windows\SysWOW64\DTCRT.DLL=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\System32\comctl32.ocx=
+C:\WINDOWS\System32\msflxgrd.ocx=
+C:\WINDOWS\System32\mscomct2.ocx=
+C:\WINDOWS\System32\MSCOMCTL.OCX=
+C:\Windows\SysWOW64\msdatgrd.ocx=
+C:\Windows\SysWOW64\msflxgrd.ocx=
+C:\Windows\SysWOW64\mscomct2.ocx=
+C:\Windows\SysWOW64\msadodc.ocx=
+C:\Windows\SysWOW64\MSCOMCTL.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+co.mdb=
+main.txt=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\System32\msvbvm60.dll=Yes
+C:\WINDOWS\System32\oleaut32.dll=Yes
+C:\WINDOWS\System32\olepro32.dll=Yes
+C:\WINDOWS\System32\asycfilt.dll=Yes
+C:\WINDOWS\System32\stdole2.tlb=Yes
+C:\WINDOWS\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=Yes
+C:\Windows\SysWOW64\MSCOMCTL.OCX=Yes
+C:\Windows\SysWOW64\msadodc.ocx=Yes
+C:\Windows\SysWOW64\msstdfmt.dll=Yes
+C:\Windows\SysWOW64\mscomct2.ocx=Yes
+C:\Windows\SysWOW64\msflxgrd.ocx=Yes
+C:\Windows\SysWOW64\msdatgrd.ocx=Yes
+C:\Windows\SysWOW64\COMCTL32.OCX=Yes
+C:\Windows\SysWOW64\msbind.dll=Yes
+C:\Windows\SysWOW64\msdbrptr.dll=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\accounting software\Card Account.exe=Yes
+C:\Windows\SysWOW64\DTCRT.DLL=Yes
+C:\accounting software\co.mdb=Yes
+C:\accounting software\main.txt=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\aj\lazer\accounting software\LaZeR.exe=$(AppPath)
+C:\WINDOWS\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\System32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\System32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\System32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\System32\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\System32\msflxgrd.ocx=$(WinSysPath)
+C:\WINDOWS\System32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\System32\comctl32.ocx=$(WinSysPath)
+C:\WINDOWS\System32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\System32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\setup.exe=$(AppPath)
+C:\aj\lazer\accounting software\setup\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\aj\lazer\accounting software\data\1000\co.mdb=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VIntDev98\bin\DTCRT.DLL=$(WinSysPath)
+C:\aj\lazer\accounting software\main.txt=$(AppPath)
+C:\accounting software\Card_account_lebara.exe=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\Windows\SysWOW64\MSCOMCTL.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\msadodc.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\msstdfmt.dll=$(WinSysPath)
+C:\Windows\SysWOW64\mscomct2.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\msflxgrd.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\msdatgrd.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\COMCTL32.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\msbind.dll=$(WinSysPath)
+C:\Windows\SysWOW64\msdbrptr.dll=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VIntDev98\bin\DTCRT.DLL=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\accounting software\data\1000\co.mdb=$(AppPath)
+C:\accounting software\data\main.txt=$(AppPath)
+C:\accounting software\Card Account.exe=$(AppPath)
+C:\Windows\SysWOW64\DTCRT.DLL=$(WinSysPath)
+C:\accounting software\co.mdb=$(AppPath)
+C:\accounting software\main.txt=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\aj\lazer\accounting software\LaZeR.exe=Yes
+C:\aj\lazer\accounting software\data\1000\co.mdb=Yes
+C:\aj\lazer\accounting software\main.txt=Yes
+C:\accounting software\Card_account_lebara.exe=Yes
+C:\accounting software\data\1000\co.mdb=Yes
+C:\accounting software\data\main.txt=Yes
+C:\accounting software\Card Account.exe=Yes
+C:\accounting software\co.mdb=Yes
+C:\accounting software\main.txt=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=ajay patel card account application
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\accounting software\pkg
+ProjectFolder=C:\accounting software
+ServerSideCab=
+File1=C:\accounting software\pkg\setup.exe
+File2=C:\accounting software\pkg\Setup.Lst
+File3=C:\accounting software\pkg\Card Account.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=easy accounting
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|easy accounting]
+Icon1="Card Account.exe"
+Title1=aj easy accounting
+StartIn1=$(AppPath)
+Key1=Icon1

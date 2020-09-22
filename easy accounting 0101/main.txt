@@ -1,0 +1,2 @@
+"c:\aj\lazer\accounting software\data\1000\co.mdb"
+"c:\aj\lazer\accounting software\data\1000\backup\co.mdb"
